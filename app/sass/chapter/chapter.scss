@@ -1,0 +1,97 @@
+.bao-llnstudio-chapter {
+    .bao-llnstudio-chapter__tile {
+        background: $bao-lln-white;
+        border-radius: 25px;
+        display: block;
+        margin-bottom: 30px;
+        overflow: hidden;
+        padding: 30px;
+        position: relative;
+        transition: all .2s;
+        &:before {
+            content: "";
+            width: 25px;
+            background: $bao-lln-blue;
+            border-radius: 25px 0px 0px 25px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+        }
+        &-body {
+            align-items: center;
+            display: flex;
+            &-img {
+                border-radius: 50%;
+                background-size: cover !important;
+                height: 80px;
+                margin: 0 20px;
+                min-width: 80px;
+                width: 80px;
+            }
+            &-info {
+                &-title {
+                    color: $bao-lln-green;
+                    font-family: 'MikadoMedium';
+                    font-size: 20px;
+                    line-height: 20px;
+                    word-break: break-word;
+                }
+                &-segment {
+                    color: $bao-lln-blue;
+                    font-family: 'MikadoMedium';
+                    font-size: 15px;
+                }
+            }
+            &-practice {
+                bottom: 20px;
+                position: absolute;
+                right: 30px;
+            }
+        }
+        &-footer {
+            margin-top: 10px;
+            text-align: right;
+        }
+        &:hover {
+            box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+            transform: scale(1.03);
+        }
+        /* MODIFIERS */
+        &--no-thumb-lesson {
+            &:before {
+                background: #05B2B6;
+            }
+            .bao-llnstudio-chapter__tile-body-info-segment {
+                color: #05B2B6;
+                font-size: 22px;
+                margin-left: 20px;
+            }
+            &:hover {
+                box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+                transform: scale(1.03);
+            }
+        }   
+    
+        &--no-thumb {
+            .bao-llnstudio-chapter__tile-body {
+                margin-left: 20px;
+            }
+        }
+
+        &--practice {
+            &:hover {
+                transform: none;
+            }
+        }
+        &--practice-no-thumb {
+            .bao-llnstudio-chapter__tile-body-info {
+                margin-left: 20px;
+            }
+            &:hover {
+                transform: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,254 @@
+#mikado {
+    /* MENU BACKGROUND AND HEADER */
+    #menu {
+        background: $bao-lln-mikado;
+    }
+    #title {
+        background: url(../assets/img/bao-llnstudio-bg-nav-mikado.svg) center bottom no-repeat;
+        background-size: cover;
+    }
+    #bao-llnstudio-mikado {
+        .bao-llnstudio-header {
+            background: url(../assets/img/bao-llnstudio-bg-nav-mikado.svg) center bottom no-repeat;
+            padding-bottom: 40px;
+        }
+    }
+
+    /* BULLET IN MENU */
+    .bao-llnstudio-menu__nav-module {
+        .bao-llnstudio-modulepicker__year-select-method {
+            &--mikado-1 {
+                .bao-llnstudio-modulepicker__year-select-method--bullet {
+                    background: $bao-lln-year-select-mikado-1;
+                    color: $bao-lln-white;
+                }
+            }
+            &--mikado-2 {
+                .bao-llnstudio-modulepicker__year-select-method--bullet  {
+                    background: $bao-lln-year-select-mikado-2;
+                    color: $bao-lln-white;
+                }
+            }
+            &--mikado-3 {
+                .bao-llnstudio-modulepicker__year-select-method--bullet  {
+                    background: $bao-lln-year-select-mikado-3;
+                    color: $bao-lln-white;
+                }
+            }
+            &--mikado-4 {
+                .bao-llnstudio-modulepicker__year-select-method--bullet  {
+                    background: $bao-lln-year-select-mikado-4;
+                    color: $bao-lln-white;
+                }
+            }
+            &--mikado-5 {
+                .bao-llnstudio-modulepicker__year-select-method--bullet  {
+                    background: $bao-lln-year-select-mikado-5;
+                    color: $bao-lln-white;
+                }
+            }
+            &--mikado-6 {
+                .bao-llnstudio-modulepicker__year-select-method--bullet  {
+                    background: $bao-lln-year-select-mikado-6;
+                    color: $bao-lln-white;
+                }
+            }
+        }
+    }
+    
+    
+    .bao-llnstudio-return-lessonlevel {
+        background: $bao-lln-mikado-chapter-2;
+    }
+    .bao-llnstudio-lesson__tile {
+        border-color: $bao-lln-mikado-chapter-2;
+    }
+
+    /* MODULEPICKER */
+    .bao-llnstudio-modulepicker__method-title {
+        color: $bao-lln-mikado;
+    }
+
+    .bao-llnstudio-modulepicker__year-select-method {
+        &--mikado-1 {
+            .bao-llnstudio-modulepicker__year-select-method--bullet {
+                border-color: $bao-lln-year-select-mikado-1;
+            }
+            &:hover {
+                .bao-llnstudio-modulepicker__year-select-method--bullet {
+                    background: $bao-lln-year-select-mikado-1;
+                    color: $bao-lln-white;
+                }
+            }
+        }
+        &--mikado-2 {
+            .bao-llnstudio-modulepicker__year-select-method--bullet {
+                border-color: $bao-lln-year-select-mikado-2;
+            }
+            &:hover {
+                .bao-llnstudio-modulepicker__year-select-method--bullet {
+                    background: $bao-lln-year-select-mikado-2;
+                    color: $bao-lln-white;
+                }
+            }
+        }
+        &--mikado-3 {
+            .bao-llnstudio-modulepicker__year-select-method--bullet {
+                border-color: $bao-lln-year-select-mikado-3;
+            }
+            &:hover {
+                .bao-llnstudio-modulepicker__year-select-method--bullet {
+                    background: $bao-lln-year-select-mikado-3;
+                    color: $bao-lln-white;
+                }
+            }
+        }
+        &--mikado-4 {
+            .bao-llnstudio-modulepicker__year-select-method--bullet {
+                border-color: $bao-lln-year-select-mikado-4;
+            }
+            &:hover {
+                .bao-llnstudio-modulepicker__year-select-method--bullet {
+                    background: $bao-lln-year-select-mikado-4;
+                    color: $bao-lln-white;
+                }
+            }
+        }
+        &--mikado-5 {
+            .bao-llnstudio-modulepicker__year-select-method--bullet {
+                border-color: $bao-lln-year-select-mikado-5;
+            }
+            &:hover {
+                .bao-llnstudio-modulepicker__year-select-method--bullet {
+                    background: $bao-lln-year-select-mikado-5;
+                    color: $bao-lln-white;
+                }
+            }
+        }
+        &--mikado-6 {
+            .bao-llnstudio-modulepicker__year-select-method--bullet {
+                border-color: $bao-lln-year-select-mikado-6;
+            }
+            &:hover {
+                .bao-llnstudio-modulepicker__year-select-method--bullet {
+                    background: $bao-lln-year-select-mikado-6;
+                    color: $bao-lln-white;
+                }
+            }
+        }
+    }
+    /* TILES CHAPTER */
+    .bao-llnstudio-chapter__tile {
+        &--mikado-1 {
+            &:before {
+                background: $bao-lln-mikado-chapter-1;
+            }
+            .bao-llnstudio-chapter__tile-body-info-title {
+                color: $bao-lln-mikado-chapter-1;
+            }
+        }
+    } 
+    
+    /* TILES LESSON */
+    .bao-llnstudio-lesson__tile-mikado-chapter-1 {
+        &:before {
+            background: $bao-lln-mikado-chapter-1;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-1;
+        }
+    }
+    .bao-llnstudio-lesson__tile-mikado-chapter-2 {
+        &:before {
+            background: $bao-lln-mikado-chapter-2;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-2;
+        }
+    }
+    .bao-llnstudio-lesson__tile-mikado-chapter-3 {
+        &:before {
+            background: $bao-lln-mikado-chapter-3;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-3;
+        }
+    }
+    .bao-llnstudio-lesson__tile-mikado-chapter-4 {
+        &:before {
+            background: $bao-lln-mikado-chapter-4;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-4;
+        }
+    }
+    .bao-llnstudio-lesson__tile-mikado-chapter-5 {
+        &:before {
+            background: $bao-lln-mikado-chapter-5;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-5;
+        }
+    }
+    .bao-llnstudio-lesson__tile-mikado-chapter-6 {
+        &:before {
+            background: $bao-lln-mikado-chapter-6;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-6;
+        }
+    }
+    .bao-llnstudio-lesson__tile-mikado-chapter-7 {
+        &:before {
+            background: $bao-lln-mikado-chapter-7;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-7;
+        }
+    }
+    .bao-llnstudio-lesson__tile-mikado-chapter-8 {
+        &:before {
+            background: $bao-lln-mikado-chapter-8;
+        }
+        .bao-llnstudio-lesson__tile-body-info-title {
+            color: $bao-lln-mikado-chapter-8;
+        }
+    }
+}
+
+
+#iedereen-spelt {
+    /* SELECTED YEAR IN MENU - BULLET */
+    .bao-llnstudio-menu__nav-module {
+        .bao-llnstudio-modulepicker__year-select-method--bullet {
+            color: $bao-lln-white;
+            background: $bao-lln-spelt;
+            &:hover {
+                color: $bao-lln-white;
+                background: $bao-lln-spelt;
+            }
+        }
+    }
+    /* MENU BACKGROUND AND HEADER */
+    #menu {
+        background: $bao-lln-iedereen-spelt;
+    }
+    #title {
+        background: url(../assets/img/bao-llnstudio-bg-nav-iedereen-spelt.svg) center bottom no-repeat;
+        background-size: cover;
+    }
+    .bao-llnstudio-header {
+        background: url(../assets/img/bao-llnstudio-bg-nav-iedereen-spelt.svg) center bottom no-repeat;
+        padding-bottom: 40px;
+    }
+    .bao-llnstudio-modulepicker__method-title {
+        color: $bao-lln-iedereen-spelt;
+    }
+    .bao-llnstudio-modulepicker__year-select-method--bullet {
+        border-color: $bao-lln-spelt;
+        &:hover {
+            color: $bao-lln-white;
+            background: $bao-lln-spelt;
+        }
+    }
+}

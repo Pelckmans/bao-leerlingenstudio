@@ -1,0 +1,27 @@
+#splitter {
+    #content {
+    background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center top no-repeat;
+    height: 180px;
+    padding: 40px 0;
+    z-index: 999;
+    .pm-splitter-hello {
+        color: #FFF;
+        font-size: 32px;
+        font-family: 'MikadoMedium';
+        }
+    }
+}
+
+.pm-splitter-footer {
+    background: #FFF;
+    font-size: 14px;
+    color: #00AE74;
+    font-family: "Fedra Sans Screen Regular 2",Verdana,Arial,sans-serif;
+    padding: 10px 0;
+    &__copyright {
+        font-family: "Fedra Sans Screen Bold 2",Verdana,Arial,sans-serif;
+    }
+    a {
+        color: #00AE74;
+    }
+}

@@ -1,0 +1,30 @@
+@mixin bao_llnstudio_btn-style($BtnColor, $TextColor){
+    background: $BtnColor;
+    color: $TextColor;
+    &:hover{
+        background: darken($BtnColor, 10%); 
+        cursor: pointer;
+    }
+}
+
+.bao-llnstudio-btn {
+    @include bao-llnstudio-btn-style($bao-lln-green, $bao-lln-white);
+    border: none;
+    border-radius: 35px;
+    font-family: 'MikadoMedium';
+    font-size: 14px;
+    line-height: 14px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .2s all;
+    &--practice-main {
+        @include bao-llnstudio-btn-style($bao-lln-blue, $bao-lln-white);
+    }
+    &--practice-alt1 {
+        @include bao-llnstudio-btn-style($bao-lln-button-practice-1, $bao-lln-white);
+    }
+    &--practice-alt2 {
+        @include bao-llnstudio-btn-style($bao-lln-button-practice-2, $bao-lln-white);
+    }
+}

@@ -1,0 +1,86 @@
+.bao-llnstudio-return-lessonlevel {
+    background: $bao-lln-iedereen-spelt;
+    border-radius: 28px;
+    padding: 10px 20px;
+    .bao-llnstudio-return__title {
+        color: $bao-lln-white;
+        letter-spacing: 1px;
+    }
+    .bao-llnstudio-return__previous {
+        text-align: right;
+    }
+}
+
+.bao-llnstudio-lesson {
+    .bao-llnstudio-lesson__tile {
+        background: $bao-lln-white;
+        border-radius: 25px;
+        display: block;
+        margin-bottom: 30px;
+        overflow: hidden;
+        padding: 30px;
+        position: relative;
+        transition: all .2s;
+        &:before {
+            content: "";
+            width: 25px;
+            background: $bao-lln-iedereen-spelt;
+            border-radius: 25px 0px 0px 25px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+        }
+        &-body {
+            align-items: center;
+            display: flex;
+            &-img {
+                border-radius: 50%;
+                background-size: cover !important;
+                height: 80px;
+                margin: 0 20px;
+                min-width: 80px;
+                width: 80px;
+            }
+            &-info {
+                width: 100%; 
+                &-segment {
+                    color: $bao-lln-iedereen-spelt;
+                    font-size: 15px;
+                }
+                &-title {
+                    color: $bao-lln-iedereen-spelt;
+                    font-family: 'MikadoMedium';
+                    font-size: 18px;
+                    line-height: 20px;
+                    word-break: break-word;
+                }
+                &-practice {
+                    bottom: 20px;
+                    position: absolute;
+                    right: 30px;
+                }
+            }
+        }
+        &-footer {
+            margin-top: 10px;
+            text-align: right;
+        }
+        &:hover {
+            box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+        }
+        /* MODIFIERS */
+        &--no-thumb {
+            .bao-llnstudio-lesson__tile-body {
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .bao-llnstudio-lesson__tile-img {
+        display: none;
+    }
+}

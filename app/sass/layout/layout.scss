@@ -1,0 +1,257 @@
+.bao-llnstudio-header {
+    align-items: center;
+    display: flex;
+    background: $bao-lln-white;
+    padding: 10px 0;
+    .bao-llnstudio-header__exercises {
+        align-items: center;
+        display: flex;
+        width: 50%;
+        span {
+            color: $bao-lln-pm-green;
+            font-family: 'FedraSansStd-Bold';
+            font-size: 16px;
+            letter-spacing: 2px;
+            line-height: 18px;
+            margin-left: 8px;
+            text-transform: uppercase;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .bao-llnstudio-header__right {
+        color: $bao-lln-blue;
+        transition: all .2s;
+        &--bao {
+            color: $bao-lln-pm-green;
+            &:hover {
+                color: darken($bao-lln-pm-green, 10%) !important;
+            }
+        }
+        span {
+            font-family: 'FedraSansStd-Bold';
+            font-size: 16px;
+            margin-left: 8px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        i {
+            font-size: 18px;
+            position: relative;
+            top: 3px;
+        }
+        &:hover {
+            color: darken($bao-lln-blue, 10%);
+        }
+    }
+}
+
+#menu {
+    background: $bao-lln-blue;
+    border-bottom: 1px solid $bao-lln-white;
+}
+
+.bao-llnstudio-menu {
+    .bao-llnstudio-menu__nav {
+        align-items: center;
+        color: $bao-lln-white;
+        display: flex;
+        height: 60px;
+        position: relative;
+        ul {
+            display: inline-flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        li {
+            align-items: center;
+            display: inline-flex;
+            height: 60px;
+            justify-content: center;
+        }
+        &-menu {
+            align-items: center;
+            color: $bao-lln-white;
+            display: flex;
+            font-family: 'MikadoLight';
+            height: 100%;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            i {
+                margin-right: 8px;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        &-home {
+            align-items: center;
+            background: $bao-lln-fill;
+            color: $bao-lln-white;
+            display: flex;
+            float: left;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            width: 60px;
+            height: 60px;
+            z-index: 9999;
+            transition: .2s all;
+            i {
+                font-size: 20px;
+                line-height: 20px;
+            }
+            &:hover {
+                background: $bao-lln-fill-half;
+            }
+        }
+        &-method {
+            a {
+                background: $bao-lln-white;
+                padding: 10px;
+                img {
+                    height: 40px;
+                    transition: all .2s;
+                }
+                &:hover img {
+                    transform: scale(1.05)
+                }
+            }
+            
+        }
+        &-module {
+            background: $bao-lln-white;
+            border-left: 1px solid $bao-lln-grey;
+            a {
+                padding: 10px;
+                span {
+                    background: $bao-lln-blue;
+                    color: $bao-lln-white;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+        &-lesson {
+            margin-left: 20px;
+        }
+        &-close {
+            a {
+                color: $bao-lln-white;
+                font-family: 'MikadoLight';
+                transition: .2s all;
+                i {
+                    font-size: 12px !important;
+                    margin-left: 8px;
+                }
+            }
+        }
+        &-help {
+            align-items: center;
+            background: $bao-lln-fill;
+            color: $bao-lln-white;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 60px;
+            height: 60px;
+            z-index: 9999;
+            i {
+                font-size: 20px;
+                line-height: 10px;
+            }
+            &:hover {
+                background: $bao-lln-fill-half;
+            }
+        }
+        a {
+            i {
+                font-size: 24px;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+        /*&:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -15px;
+            right: -15px;
+            bottom: 0;
+            border-bottom: 1px solid $bao-lln-white;
+        }*/
+    }
+}
+
+@media (max-width: 576px) {
+    .bao-llnstudio-menu__nav-home {
+        float: none;
+        right: 60px;
+        margin-right: 1px;
+    }
+}
+
+#title {
+    background: url(../assets/img/bao-llnstudio-bg-nav.svg) center bottom no-repeat;
+    background-size: cover;
+    height: 120px;
+    padding: 20px 0;
+    z-index: 999;
+}
+
+.bao-llnstudio-page__title {
+    background: $bao-lln-white;
+    border-radius: 100px;
+    color: $bao-lln-green;
+    font-family: 'MikadoBold';
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px 0;
+    position: relative;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 350px;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 10px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $bao-lln-blue;
+        border-radius: 100px;
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -o-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+        z-index: -1;
+    }
+    span {
+        display: block;
+        font-size: 24px;
+        line-height: 24px;
+        &.sub {
+            font-size: 16px;
+        }
+    }
+}
+
+#content {
+    padding: 40px 0;
+}
+
+@media (max-width: 575px) {
+    .bao-llnstudio-page__title {
+        width: 300px !important;
+    }
+}

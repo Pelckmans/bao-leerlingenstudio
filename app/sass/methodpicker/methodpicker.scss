@@ -1,0 +1,93 @@
+.bao-llnstudio-methodpicker {
+    padding-top: 50px;
+    .bao-llnstudio-methodpicker__tile {
+        transform: scale(1);
+        margin-bottom: 60px;
+        transition: all .2s;
+        &:hover {
+            transform: scale(1.05);
+        }
+        a {
+            background: $bao-lln-white;
+            display: block;
+            border-radius: 28px;
+            padding: 0 0 20px 0;
+            position: relative;
+            .bao-llnstudio-methodpicker__tile-img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px 0;
+                height: 120px;
+                max-width: 70%;
+            }
+            .bao-llnstudio-methodpicker__tile-title {
+                padding: 0;
+                font-family: 'MikadoMedium';
+                font-size: 18px;
+                letter-spacing: 1.45px;
+                text-align: center;
+            }
+            &:before {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                border-radius: 28px;
+                -webkit-transform: rotate(4deg);
+                -moz-transform: rotate(4deg);
+                -o-transform: rotate(4deg);
+                -ms-transform: rotate(4deg);
+                transform: rotate(4deg);
+                z-index: -1;
+                transition: all .2s;
+            }
+            &:hover:before {
+                -webkit-transform: rotate(6deg);
+                -moz-transform: rotate(6deg);
+                -o-transform: rotate(6deg);
+                -ms-transform: rotate(6deg);
+                transform: rotate(6deg);
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .bao-llnstudio-modulepicker__year-select {
+        margin: 30px 0; 
+    }
+}
+
+// VARIABLES //
+.bao-llnstudio-methodpicker__tile--mikado  {
+    a:before {
+        background: $bao-lln-mikado;
+    }
+    .bao-llnstudio-methodpicker__tile-title {
+        color: $bao-lln-mikado;
+    }
+}
+.bao-llnstudio-methodpicker__tile--iedereen-spelt {
+    a:before {
+        background: $bao-lln-iedereen-spelt;
+    }
+    .bao-llnstudio-methodpicker__tile-title {
+        color: $bao-lln-iedereen-spelt;
+    }
+}
+
+ /* METHODPICKER */
+ .bao-llnstudio-methodpicker__tile-img {
+    a img {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}

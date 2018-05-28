@@ -1,0 +1,27 @@
+{
+  "name": "bao-leerlingenstudio",
+  "version": "1.0.0",
+  "description": "bao-leerlingenstudio Pelckmans",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-scss": "^4.1.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "Test BaO-leerlingenstudio PM"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pelckmans/bao-leerlingenstudio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pelckmans/bao-leerlingenstudio/issues"
+  },
+  "homepage": "https://github.com/Pelckmans/bao-leerlingenstudio#readme"
+}

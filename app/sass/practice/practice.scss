@@ -1,0 +1,101 @@
+.bao-llnstudio-practices {
+    background: $bao-lln-white;
+    min-height: 600px;
+    position: relative;
+    padding: 2px;
+    &:before {
+        background: $bao-lln-iedereen-spelt;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -o-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+        z-index: -1;
+        transition: all .2s;
+    }
+}
+
+@media (max-width: 767px) {
+    .bao-llnstudio-menu__nav-close span {
+        display: none;
+    }
+}
+
+.bao-llnstudio-alert {
+    background: $bao-lln-modal-alert-bg;
+    top: 60px;
+    bottom: 60px;
+    .bao-llnstudio-alert__content {
+        border: none;
+        border-radius: 0px;
+        &:before {
+            background: $bao-lln-iedereen-spelt;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            -webkit-transform: rotate(2deg);
+            -moz-transform: rotate(2deg);
+            -o-transform: rotate(2deg);
+            -ms-transform: rotate(2deg);
+            transform: rotate(2deg);
+            z-index: -1;
+            transition: all .2s;
+        }
+    }
+    .bao-llnstudio-alert__content-header {
+        display: block;
+        background: $bao-lln-blue;
+        border-radius: 0px;
+        margin: 10px;
+        h5 {
+            background: $bao-lln-button-practice-2;
+            border-radius: 4px;
+            color: $bao-lln-white;
+            font-family: 'MikadoLight';
+            padding: 4px 10px 0px 10px;
+            text-transform: uppercase;
+            width: fit-content;
+        }
+        p {
+            color: $bao-lln-white;
+            line-height: normal;
+            margin: 10px 0;
+        }
+    }
+    .bao-llnstudio-alert__content-body {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                padding: 5px 0;
+                min-width: 250px;
+                text-align: center;
+                button {
+                    text-transform: lowercase;
+                    width: 100%;
+                    i {
+                        float: right;
+                        position: relative;
+                        top: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
