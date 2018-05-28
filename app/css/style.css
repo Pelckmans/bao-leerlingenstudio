@@ -305,7 +305,7 @@
     color: #4DACC6;
     transition: all .2s; }
     .bao-llnstudio-header .bao-llnstudio-header__right--bao {
-      color: #00AE74; }
+      color: #5AAF2D; }
       .bao-llnstudio-header .bao-llnstudio-header__right--bao:hover {
         color: #007b52 !important; }
     .bao-llnstudio-header .bao-llnstudio-header__right span {
@@ -491,9 +491,10 @@
   background: #05B2B6;
   border-radius: 28px;
   padding: 10px 20px; }
-  .bao-llnstudio-return-lessonlevel .bao-llnstudio-return__title {
+  .bao-llnstudio-return-lessonlevel .bao-llnstudio-return__theme-title {
     color: #FFF;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    font-size: 18px; }
   .bao-llnstudio-return-lessonlevel .bao-llnstudio-return__previous {
     text-align: right; }
 
@@ -608,7 +609,11 @@
         text-decoration: none; }
 
 @media screen and (max-width: 767px) {
-  .bao-llnstudio-modulepicker__year-select {
+  .bao-llnstudio-modulepicker__method-img {
+    width: 200px !important; }
+  .bao-llnstudio-modulepicker__method-title {
+    font-size: 22px !important; }
+  .bao-llnstudio-modulepicker__year-select-method {
     margin: 30px 0; } }
 
 .bao-llnstudio-methodpicker__tile--mikado a:before {

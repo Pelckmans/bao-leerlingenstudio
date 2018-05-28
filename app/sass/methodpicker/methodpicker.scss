@@ -61,7 +61,13 @@
 }
 
 @media screen and (max-width:767px) {
-    .bao-llnstudio-modulepicker__year-select {
+    .bao-llnstudio-modulepicker__method-img {
+        width: 200px !important;
+    }
+    .bao-llnstudio-modulepicker__method-title {
+        font-size: 22px !important;
+    }
+    .bao-llnstudio-modulepicker__year-select-method {
         margin: 30px 0; 
     }
 }
