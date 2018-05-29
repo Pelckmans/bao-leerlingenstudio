@@ -1,13 +1,78 @@
 #splitter {
-    #content {
-    background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center top no-repeat;
-    height: 180px;
-    padding: 40px 0;
-    z-index: 999;
-    .pm-splitter-hello {
-        color: #FFF;
-        font-size: 32px;
-        font-family: 'MikadoMedium';
+    #title .bao-llnstudio-page__topbg {
+        background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center bottom no-repeat;
+        background-size: cover;
+    }
+}
+
+.pm-splitter-hello {
+    color: #FFF;
+    font-size: 32px;
+    font-family: 'MikadoMedium';
+    margin-bottom: 50px;
+    }
+
+.pm-splitter {
+    background: #FFF;
+    border-radius: 28px;
+    display: block;
+    padding: 40px;
+    position: relative;
+    &:before {
+        background: #67C237;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 28px;
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -o-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+        z-index: -1;
+        transition: all .2s;
+    }
+    button {
+        background: rgb(97, 182, 52);
+        border-radius: 60px;
+        border: none;
+        box-shadow: 0 2px 0 0 #5aaa30;
+        color: rgb(255, 255, 255);
+        padding: 0.7695rem 1.5rem 0.55652rem;
+        transform: translateY(-1px);
+        font-family: MikadoRegular, "Open Sans", sans-serif;
+        font-weight: 700;
+        transition: all 0.15s ease;
+        i {
+            float: right;
+            position: relative;
+            top: 2px;
+            transition: all .2s;
+        }
+        &:hover {
+            background: #61b634;
+            box-shadow: 0 6px 6px -4px rgba(0, 0, 0, 0.25), 0 6px 16px 0 rgba(150, 150, 150, 0.15);
+            color: #FFF;
+            transform: translateY(-1px);
+            i {
+               left: 1px;
+            }
+        }
+    }
+    &__student {
+        border-right: 2px solid #7BC2D5;
+        button {
+            width: 100%;
+        }
+    }
+    &__teacher {
+        button {
+            width: 100%;
         }
     }
 }
