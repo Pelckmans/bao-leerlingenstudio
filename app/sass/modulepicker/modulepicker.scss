@@ -6,10 +6,10 @@
         display: block;
         text-align: right;
         i {
+            left: 0px;
             margin-right: 5px;
             position: relative;
             top: 3px;
-            left: 0px;
             transition: all .4s;
         }
         &:hover i {
@@ -20,27 +20,27 @@
 }
 
 .bao-llnstudio-modulepicker {
-    padding-top: 30px;
     background: $bao-lln-white;
     border-radius: 28px;
     padding: 40px 20px;
+    padding-top: 30px;
     position: relative;
     &:before {
-        content: "";
         background: $bao-lln-blue;
-        position: absolute;
-        width: 101.6%;
-        height: 100%;
-        top: 0;
-        left: -.8%;
-        right: -.8%;
+        border-radius: 100px;
         bottom: 0;
-        border-radius: 28px;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 10px;
         -webkit-transform: rotate(2deg);
         -moz-transform: rotate(2deg);
         -o-transform: rotate(2deg);
         -ms-transform: rotate(2deg);
         transform: rotate(2deg);
+        width: 100%;
         z-index: -1;
     }
     .bao-llnstudio-modulepicker__method {
@@ -76,15 +76,15 @@
         border: 4px solid #4DACC6;
         border-radius: 50%;
         box-shadow: 0 2px 4px 0 rgba(162, 157, 157, 0.5);
+        color: #4DACC6;
         display: inline-flex;
-        justify-content: center;
+        font-family: 'MikadoMedium';
+        font-size: 24px;
         height: 60px;
-        width: 60px;
-        font-family: MikadoMedium;
+        justify-content: center;
         padding-top: 2px;
         transition: all .3s;
-        color: #4DACC6;
-        font-size: 24px;
+        width: 60px;
     }
     &:hover {
         .bao-llnstudio-modulepicker__year-select-method--bullet {

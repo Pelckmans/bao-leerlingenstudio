@@ -78,8 +78,8 @@
             display: flex;
             font-family: 'MikadoLight';
             height: 100%;
-            text-transform: uppercase;
             letter-spacing: 1px;
+            text-transform: uppercase;
             i {
                 margin-right: 8px;
             }
@@ -100,7 +100,6 @@
             transition: .2s all;
             width: 60px;
             z-index: 9999;
-            
             i {
                 font-size: 20px;
                 line-height: 20px;
@@ -121,7 +120,6 @@
                     transform: scale(1.05)
                 }
             }
-            
         }
         &-module {
             background: $bao-lln-white;
@@ -194,11 +192,30 @@
 }
 
 #title {
-    background: url(../assets/img/bao-llnstudio-bg-nav.svg) center bottom no-repeat;
-    background-size: cover;
-    height: 120px;
-    padding: 20px 0;
+    height: 150px;
+    min-height: 150px;
+    overflow: hidden;
     z-index: 999;
+    .bao-llnstudio-page__topbg {
+        background: url(../assets/img/bao-llnstudio-bg-nav.svg) center bottom no-repeat;
+        background-size: cover;
+        height: 120px;
+        margin-left: -0.5%;
+        padding: 20px 0;
+        position: relative;
+        width: 101%;
+        z-index: 999;
+    }
+}
+
+@media (max-width: 768px) {
+    #title {
+        overflow: visible;
+        .bao-llnstudio-page__topbg {
+            margin-left: 0 !important;
+            width: 100% !important;
+        }
+    }
 }
 
 .bao-llnstudio-page__title {
@@ -215,21 +232,21 @@
     text-align: center;
     width: 350px;
     &:before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 10px;
-        left: 0;
-        right: 0;
-        bottom: 0;
         background: $bao-lln-blue;
         border-radius: 100px;
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 10px;
         -webkit-transform: rotate(2deg);
         -moz-transform: rotate(2deg);
         -o-transform: rotate(2deg);
         -ms-transform: rotate(2deg);
         transform: rotate(2deg);
+        width: 100%;
         z-index: -1;
     }
     span {
@@ -243,7 +260,7 @@
 }
 
 #content {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 @media (max-width: 575px) {

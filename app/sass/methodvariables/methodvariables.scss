@@ -4,13 +4,9 @@
         background: $bao-lln-mikado;
     }
     #title {
-        background: url(../assets/img/bao-llnstudio-bg-nav-mikado.svg) center bottom no-repeat;
-        background-size: cover;
-    }
-    #bao-llnstudio-mikado {
-        .bao-llnstudio-header {
+        .bao-llnstudio-page__topbg {
             background: url(../assets/img/bao-llnstudio-bg-nav-mikado.svg) center bottom no-repeat;
-            padding-bottom: 40px;
+            background-size: cover;
         }
     }
 
@@ -290,21 +286,23 @@
         background: $bao-lln-iedereen-spelt;
     }
     #title {
-        background: url(../assets/img/bao-llnstudio-bg-nav-iedereen-spelt.svg) center bottom no-repeat;
-        background-size: cover;
-    }
-    .bao-llnstudio-header {
-        background: url(../assets/img/bao-llnstudio-bg-nav-iedereen-spelt.svg) center bottom no-repeat;
-        padding-bottom: 40px;
+        .bao-llnstudio-page__topbg {
+            background: url(../assets/img/bao-llnstudio-bg-nav-iedereen-spelt.svg) center bottom no-repeat;
+            background-size: cover;
+        }
     }
     .bao-llnstudio-modulepicker__method-title {
         color: $bao-lln-iedereen-spelt;
     }
-    .bao-llnstudio-modulepicker__year-select-method--bullet {
-        border-color: $bao-lln-spelt;
+    .bao-llnstudio-modulepicker__year-select-method {
+        .bao-llnstudio-modulepicker__year-select-method--bullet {
+            border-color: $bao-lln-spelt;
+        }
         &:hover {
-            color: $bao-lln-white;
-            background: $bao-lln-spelt;
+            .bao-llnstudio-modulepicker__year-select-method--bullet {
+                background: $bao-lln-spelt;
+                color: $bao-lln-white;
+            }
         }
     }
 }

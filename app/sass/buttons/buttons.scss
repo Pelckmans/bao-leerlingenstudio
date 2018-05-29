@@ -13,10 +13,10 @@
     border-radius: 35px;
     font-family: 'MikadoMedium';
     font-size: 14px;
-    line-height: 14px;
-    padding: 9px 15px;
-    text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 14px;
+    padding: 11px 15px 9px 15px;
+    text-transform: uppercase;
     transition: .2s all;
     &--practice-main {
         @include bao-llnstudio-btn-style($bao-lln-blue, $bao-lln-white);

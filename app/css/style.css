@@ -6,12 +6,9 @@
   /* TILES LESSON */ }
   #mikado #menu {
     background: #67C237; }
-  #mikado #title {
+  #mikado #title .bao-llnstudio-page__topbg {
     background: url(../assets/img/bao-llnstudio-bg-nav-mikado.svg) center bottom no-repeat;
     background-size: cover; }
-  #mikado #bao-llnstudio-mikado .bao-llnstudio-header {
-    background: url(../assets/img/bao-llnstudio-bg-nav-mikado.svg) center bottom no-repeat;
-    padding-bottom: 40px; }
   #mikado .bao-llnstudio-menu__nav-module .bao-llnstudio-modulepicker__year-select-method--mikado-1 .bao-llnstudio-modulepicker__year-select-method--bullet {
     background: #00A89C;
     color: #FFF; }
@@ -142,19 +139,16 @@
       background: #E50075; }
   #iedereen-spelt #menu {
     background: #05B2B6; }
-  #iedereen-spelt #title {
+  #iedereen-spelt #title .bao-llnstudio-page__topbg {
     background: url(../assets/img/bao-llnstudio-bg-nav-iedereen-spelt.svg) center bottom no-repeat;
     background-size: cover; }
-  #iedereen-spelt .bao-llnstudio-header {
-    background: url(../assets/img/bao-llnstudio-bg-nav-iedereen-spelt.svg) center bottom no-repeat;
-    padding-bottom: 40px; }
   #iedereen-spelt .bao-llnstudio-modulepicker__method-title {
     color: #05B2B6; }
-  #iedereen-spelt .bao-llnstudio-modulepicker__year-select-method--bullet {
+  #iedereen-spelt .bao-llnstudio-modulepicker__year-select-method .bao-llnstudio-modulepicker__year-select-method--bullet {
     border-color: #E50075; }
-    #iedereen-spelt .bao-llnstudio-modulepicker__year-select-method--bullet:hover {
-      color: #FFF;
-      background: #E50075; }
+  #iedereen-spelt .bao-llnstudio-modulepicker__year-select-method:hover .bao-llnstudio-modulepicker__year-select-method--bullet {
+    background: #E50075;
+    color: #FFF; }
 
 .bao-llnstudio-btn {
   background: #5AAF2D;
@@ -164,7 +158,7 @@
   font-family: 'MikadoMedium';
   font-size: 14px;
   line-height: 14px;
-  padding: 9px 15px;
+  padding: 11px 15px 9px 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: .2s all; }
@@ -312,8 +306,8 @@
 
 .bao-llnstudio-header {
   align-items: center;
-  display: flex;
   background: #FFF;
+  display: flex;
   padding: 10px 0; }
   .bao-llnstudio-header .bao-llnstudio-header__exercises {
     align-items: center;
@@ -339,8 +333,8 @@
     .bao-llnstudio-header .bao-llnstudio-header__right span {
       font-family: "Fedra Sans Screen Bold 2",Verdana,Arial,sans-serif;
       font-size: 16px;
-      margin-left: 8px;
       letter-spacing: 2px;
+      margin-left: 8px;
       text-transform: uppercase; }
     .bao-llnstudio-header .bao-llnstudio-header__right i {
       font-size: 18px;
@@ -358,16 +352,7 @@
   color: #FFF;
   display: flex;
   height: 60px;
-  position: relative;
-  /*&:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -15px;
-            right: -15px;
-            bottom: 0;
-            border-bottom: 1px solid $bao-lln-white;
-        }*/ }
+  position: relative; }
   .bao-llnstudio-menu .bao-llnstudio-menu__nav ul {
     display: inline-flex;
     list-style: none;
@@ -397,13 +382,13 @@
     color: #FFF;
     display: flex;
     float: left;
+    height: 60px;
     justify-content: center;
     position: absolute;
     top: 0;
+    transition: .2s all;
     width: 60px;
-    height: 60px;
-    z-index: 9999;
-    transition: .2s all; }
+    z-index: 9999; }
     .bao-llnstudio-menu .bao-llnstudio-menu__nav-home i {
       font-size: 20px;
       line-height: 20px; }
@@ -429,6 +414,9 @@
         width: 40px; }
   .bao-llnstudio-menu .bao-llnstudio-menu__nav-lesson {
     margin-left: 20px; }
+    .bao-llnstudio-menu .bao-llnstudio-menu__nav-lesson span {
+      line-height: 16px;
+      overflow: hidden; }
   .bao-llnstudio-menu .bao-llnstudio-menu__nav-close a {
     color: #FFF;
     font-family: 'MikadoLight';
@@ -441,12 +429,12 @@
     background: rgba(255, 255, 255, 0.1);
     color: #FFF;
     display: flex;
+    height: 60px;
     justify-content: center;
     position: absolute;
     right: 0;
     top: 0;
     width: 60px;
-    height: 60px;
     z-index: 9999; }
     .bao-llnstudio-menu .bao-llnstudio-menu__nav-help i {
       font-size: 20px;
@@ -461,15 +449,30 @@
 @media (max-width: 576px) {
   .bao-llnstudio-menu__nav-home {
     float: none;
-    right: 60px;
-    margin-right: 1px; } }
+    margin-right: 1px;
+    right: 60px; } }
 
 #title {
-  background: url(../assets/img/bao-llnstudio-bg-nav.svg) center bottom no-repeat;
-  background-size: cover;
-  height: 120px;
-  padding: 20px 0;
+  min-height: 150px;
+  height: 150px;
+  overflow: hidden;
   z-index: 999; }
+  #title .bao-llnstudio-page__topbg {
+    background: url(../assets/img/bao-llnstudio-bg-nav.svg) center bottom no-repeat;
+    background-size: cover;
+    height: 120px;
+    margin-left: -0.5%;
+    padding: 20px 0;
+    position: relative;
+    width: 101%;
+    z-index: 999; }
+
+@media (max-width: 768px) {
+  #title {
+    overflow: visible; }
+    #title .bao-llnstudio-page__topbg {
+      margin-left: 0 !important;
+      width: 100% !important; } }
 
 .bao-llnstudio-page__title {
   background: #FFF;
@@ -477,11 +480,11 @@
   color: #5AAF2D;
   font-family: 'MikadoBold';
   font-size: 18px;
+  letter-spacing: 1px;
   margin: 0 auto;
   margin-top: 20px;
   padding: 15px 0;
   position: relative;
-  letter-spacing: 1px;
   text-align: center;
   width: 350px; }
   .bao-llnstudio-page__title:before {
@@ -509,7 +512,7 @@
       font-size: 16px; }
 
 #content {
-  padding: 40px 0; }
+  padding: 30px 0; }
 
 @media (max-width: 575px) {
   .bao-llnstudio-page__title {
@@ -870,8 +873,8 @@ html, body {
   height: 100%; }
 
 html {
-  position: relative;
-  min-height: 100%; }
+  min-height: 100%;
+  position: relative; }
 
 body {
   display: flex;
@@ -890,9 +893,9 @@ a {
     text-decoration: none; }
 
 .container {
-  width: auto;
   max-width: 960px;
-  padding: 0 60px; }
+  padding: 0 60px;
+  width: auto; }
 
 .container-fluid {
   padding-right: 25px;
@@ -903,10 +906,9 @@ a {
     padding: 0 35px; } }
 
 .bao-llnstudio-footer {
-  width: 100%;
+  background-color: #f5f5f5;
   line-height: 60px;
-  /* Vertically center the text there */
-  background-color: #f5f5f5; }
+  width: 100%; }
   .bao-llnstudio-footer .bao-llnstudio-footer__wrapper {
     align-items: center;
     display: flex;
@@ -923,8 +925,8 @@ a {
         color: #00AE74;
         font-size: 18px;
         position: relative;
-        top: 4px;
         right: 0px;
+        top: 4px;
         transition: all .4s; }
       .bao-llnstudio-footer .bao-llnstudio-footer__wrapper .bao-llnstudio-footer__wrapper--teacher:hover {
         text-decoration: none; }
