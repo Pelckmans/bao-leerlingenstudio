@@ -849,15 +849,15 @@
             top: 1px; }
 
 #splitter #title {
-  height: 220px; }
+  height: 250px; }
   #splitter #title .bao-llnstudio-page__topbg {
     background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center bottom no-repeat;
     background-size: cover;
-    height: 170px;
-    padding: 40px 0; }
+    height: 230px;
+    padding: 50px 0; }
 
 #splitter #content {
-  margin-top: -100px;
+  margin-top: -130px;
   z-index: 999; }
 
 #splitter button:focus {
@@ -909,13 +909,14 @@
     .pm-splitter button i {
       float: right;
       position: relative;
-      top: 2px;
+      top: 4px;
       transition: all .2s; }
     .pm-splitter button:hover {
       background: #61b634;
       box-shadow: 0 6px 6px -4px rgba(0, 0, 0, 0.25), 0 6px 16px 0 rgba(150, 150, 150, 0.15);
       color: #FFF;
-      transform: translateY(-1px); }
+      transform: translateY(-1px);
+      transform: scale(1.05); }
       .pm-splitter button:hover i {
         left: 1px; }
   .pm-splitter__student {
