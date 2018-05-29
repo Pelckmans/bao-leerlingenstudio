@@ -157,10 +157,10 @@
   border-radius: 35px;
   font-family: 'MikadoMedium';
   font-size: 14px;
+  letter-spacing: 2px;
   line-height: 14px;
   padding: 11px 15px 9px 15px;
   text-transform: uppercase;
-  letter-spacing: 2px;
   transition: .2s all; }
   .bao-llnstudio-btn:hover {
     background: #458623;
@@ -195,21 +195,21 @@
   transition: all .2s;
   /* MODIFIERS */ }
   .bao-llnstudio-chapter .bao-llnstudio-chapter__tile:before {
-    content: "";
-    width: 25px;
     background: #4DACC6;
     border-radius: 25px 0px 0px 25px;
-    position: absolute;
-    left: 0;
-    top: 0;
     bottom: 0;
-    height: 100%; }
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25px; }
   .bao-llnstudio-chapter .bao-llnstudio-chapter__tile-body {
     align-items: center;
     display: flex; }
     .bao-llnstudio-chapter .bao-llnstudio-chapter__tile-body-img {
-      border-radius: 50%;
       background-size: cover !important;
+      border-radius: 50%;
       height: 80px;
       margin: 0 20px;
       min-width: 80px;
@@ -370,8 +370,8 @@
     display: flex;
     font-family: 'MikadoLight';
     height: 100%;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-transform: uppercase; }
     .bao-llnstudio-menu .bao-llnstudio-menu__nav-menu i {
       margin-right: 8px; }
     .bao-llnstudio-menu .bao-llnstudio-menu__nav-menu:hover {
@@ -453,8 +453,8 @@
     right: 60px; } }
 
 #title {
-  min-height: 150px;
   height: 150px;
+  min-height: 150px;
   overflow: hidden;
   z-index: 999; }
   #title .bao-llnstudio-page__topbg {
@@ -488,21 +488,21 @@
   text-align: center;
   width: 350px; }
   .bao-llnstudio-page__title:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 10px;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background: #4DACC6;
     border-radius: 100px;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 10px;
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     -o-transform: rotate(2deg);
     -ms-transform: rotate(2deg);
     transform: rotate(2deg);
+    width: 100%;
     z-index: -1; }
   .bao-llnstudio-page__title span {
     display: block;
@@ -524,8 +524,8 @@
   padding: 10px 20px; }
   .bao-llnstudio-return-lessonlevel .bao-llnstudio-return__theme-title {
     color: #FFF;
-    letter-spacing: 1px;
-    font-size: 18px; }
+    font-size: 18px;
+    letter-spacing: 1px; }
   .bao-llnstudio-return-lessonlevel .bao-llnstudio-return__previous {
     text-align: right; }
 
@@ -540,21 +540,21 @@
   transition: all .2s;
   /* MODIFIERS */ }
   .bao-llnstudio-lesson .bao-llnstudio-lesson__tile:before {
-    content: "";
-    width: 25px;
     background: #05B2B6;
     border-radius: 25px 0px 0px 25px;
-    position: absolute;
-    left: 0;
-    top: 0;
     bottom: 0;
-    height: 100%; }
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25px; }
   .bao-llnstudio-lesson .bao-llnstudio-lesson__tile-body {
     align-items: center;
     display: flex; }
     .bao-llnstudio-lesson .bao-llnstudio-lesson__tile-body-img {
-      border-radius: 50%;
       background-size: cover !important;
+      border-radius: 50%;
       height: 80px;
       margin: 0 20px;
       min-width: 80px;
@@ -589,29 +589,29 @@
 .bao-llnstudio-methodpicker {
   padding-top: 50px; }
   .bao-llnstudio-methodpicker .bao-llnstudio-methodpicker__tile {
-    transform: scale(1);
     margin-bottom: 60px;
+    transform: scale(1);
     transition: all .2s; }
     .bao-llnstudio-methodpicker .bao-llnstudio-methodpicker__tile:hover {
       transform: scale(1.05); }
     .bao-llnstudio-methodpicker .bao-llnstudio-methodpicker__tile a {
       background: #FFF;
-      display: block;
       border-radius: 28px;
+      display: block;
       padding: 0 0 20px 0;
       position: relative; }
       .bao-llnstudio-methodpicker .bao-llnstudio-methodpicker__tile a .bao-llnstudio-methodpicker__tile-img {
         display: block;
+        height: 120px;
         margin-left: auto;
         margin-right: auto;
-        padding: 20px 0;
-        height: 120px;
-        max-width: 70%; }
+        max-width: 70%;
+        padding: 20px 0; }
       .bao-llnstudio-methodpicker .bao-llnstudio-methodpicker__tile a .bao-llnstudio-methodpicker__tile-title {
-        padding: 0;
         font-family: 'MikadoMedium';
         font-size: 18px;
         letter-spacing: 1.45px;
+        padding: 0;
         text-align: center; }
       .bao-llnstudio-methodpicker .bao-llnstudio-methodpicker__tile a:before {
         content: "";
@@ -672,19 +672,19 @@
     display: block;
     text-align: right; }
     .bao-llnstudio-return a i {
+      left: 0px;
       margin-right: 5px;
       position: relative;
       top: 3px;
-      left: 0px;
       transition: all .4s; }
     .bao-llnstudio-return a:hover i {
       left: -3px; }
 
 .bao-llnstudio-modulepicker {
-  padding-top: 30px;
   background: #FFF;
   border-radius: 28px;
   padding: 40px 20px;
+  padding-top: 30px;
   position: relative; }
   .bao-llnstudio-modulepicker:before {
     content: "";
@@ -728,15 +728,15 @@
   border: 4px solid #4DACC6;
   border-radius: 50%;
   box-shadow: 0 2px 4px 0 rgba(162, 157, 157, 0.5);
+  color: #4DACC6;
   display: inline-flex;
-  justify-content: center;
+  font-family: 'MikadoMedium';
+  font-size: 24px;
   height: 60px;
-  width: 60px;
-  font-family: MikadoMedium;
+  justify-content: center;
   padding-top: 2px;
   transition: all .3s;
-  color: #4DACC6;
-  font-size: 24px; }
+  width: 60px; }
 
 .bao-llnstudio-modulepicker__year-select-method:hover .bao-llnstudio-modulepicker__year-select-method--bullet {
   background: #4DACC6;
@@ -765,21 +765,21 @@
   padding: 2px; }
   .bao-llnstudio-practices:before {
     background: #05B2B6;
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
     bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 10px;
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
     -o-transform: rotate(2deg);
     -ms-transform: rotate(2deg);
     transform: rotate(2deg);
-    z-index: -1;
-    transition: all .2s; }
+    transition: all .2s;
+    width: 100%;
+    z-index: -1; }
 
 @media (max-width: 767px) {
   .bao-llnstudio-menu__nav-close span {
@@ -794,21 +794,21 @@
     border-radius: 0px; }
     .bao-llnstudio-alert .bao-llnstudio-alert__content:before {
       background: #05B2B6;
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
       bottom: 0;
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 10px;
       -webkit-transform: rotate(2deg);
       -moz-transform: rotate(2deg);
       -o-transform: rotate(2deg);
       -ms-transform: rotate(2deg);
       transform: rotate(2deg);
-      z-index: -1;
-      transition: all .2s; }
+      transition: all .2s;
+      width: 100%;
+      z-index: -1; }
   .bao-llnstudio-alert .bao-llnstudio-alert__content-header {
     display: block;
     background: #4DACC6;

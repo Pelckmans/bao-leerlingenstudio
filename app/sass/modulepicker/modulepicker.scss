@@ -26,21 +26,21 @@
     padding-top: 30px;
     position: relative;
     &:before {
-        background: $bao-lln-blue;
-        border-radius: 100px;
-        bottom: 0;
         content: "";
-        height: 100%;
-        left: 0;
+        background: $bao-lln-blue;
         position: absolute;
-        right: 0;
-        top: 10px;
+        width: 101.6%;
+        height: 100%;
+        top: 0;
+        left: -.8%;
+        right: -.8%;
+        bottom: 0;
+        border-radius: 28px;
         -webkit-transform: rotate(2deg);
         -moz-transform: rotate(2deg);
         -o-transform: rotate(2deg);
         -ms-transform: rotate(2deg);
         transform: rotate(2deg);
-        width: 100%;
         z-index: -1;
     }
     .bao-llnstudio-modulepicker__method {
