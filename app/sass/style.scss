@@ -96,6 +96,9 @@ a {
 }
 
 @media (max-width: 600px) {
+  #header > div > a.bao-llnstudio-header__right.bao-llnstudio-header__right--bao > span {
+    font-size: 12px;
+  }
   .bao-llnstudio-footer__wrapper--teacher {
     display: none;
   }

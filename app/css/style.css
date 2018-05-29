@@ -848,9 +848,20 @@
             position: relative;
             top: 1px; }
 
-#splitter #title .bao-llnstudio-page__topbg {
-  background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center bottom no-repeat;
-  background-size: cover; }
+#splitter #title {
+  height: 220px; }
+  #splitter #title .bao-llnstudio-page__topbg {
+    background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center bottom no-repeat;
+    background-size: cover;
+    height: 170px;
+    padding: 40px 0; }
+
+#splitter #content {
+  margin-top: -100px;
+  z-index: 999; }
+
+#splitter button:focus {
+  outline: none; }
 
 .pm-splitter-hello {
   color: #FFF;
@@ -862,7 +873,7 @@
   background: #FFF;
   border-radius: 28px;
   display: block;
-  padding: 40px;
+  padding: 20px 40px;
   position: relative; }
   .pm-splitter:before {
     background: #67C237;
@@ -892,7 +903,9 @@
     transform: translateY(-1px);
     font-family: MikadoRegular, "Open Sans", sans-serif;
     font-weight: 700;
-    transition: all 0.15s ease; }
+    transition: all 0.15s ease;
+    font-size: 20px;
+    letter-spacing: 1px; }
     .pm-splitter button i {
       float: right;
       position: relative;
@@ -906,11 +919,66 @@
       .pm-splitter button:hover i {
         left: 1px; }
   .pm-splitter__student {
-    border-right: 2px solid #7BC2D5; }
+    border-right: 2px dashed #7BC2D5;
+    padding: 30px; }
     .pm-splitter__student button {
       width: 100%; }
-  .pm-splitter__teacher button {
-    width: 100%; }
+      .pm-splitter__student button:before {
+        content: "";
+        height: 55px;
+        width: 30px;
+        background: url(../assets/img/splitter-student-arrow.svg) center center no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: -85px;
+        left: 42%; }
+  .pm-splitter__teacher {
+    padding: 30px; }
+    .pm-splitter__teacher button {
+      width: 100%; }
+      .pm-splitter__teacher button:before {
+        content: "";
+        height: 55px;
+        width: 30px;
+        background: url(../assets/img/splitter-teacher-arrow.svg) center center no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: -85px;
+        left: 42%; }
+  .pm-splitter__list {
+    padding-top: 30px; }
+    .pm-splitter__list h5 {
+      font-family: 'MikadoBold';
+      font-size: 20px;
+      color: #1E6C81;
+      letter-spacing: 1px; }
+    .pm-splitter__list ul {
+      list-style: none;
+      padding-left: 0; }
+      .pm-splitter__list ul li {
+        display: flex;
+        font-family: 'MikadoRegular';
+        font-size: 16px;
+        color: #4DACC6; }
+        .pm-splitter__list ul li:before {
+          content: "\68";
+          font-family: "bao-leerlingenstudio" !important;
+          font-size: 11px;
+          margin-right: 5px;
+          margin-top: 2px; }
+
+#methods {
+  background: #C7EBF5;
+  padding: 30px 0;
+  margin-top: 50px; }
+  #methods .pm-methods {
+    font-family: 'MikadoMedium';
+    font-size: 16px;
+    color: #1E6C81;
+    letter-spacing: 1px;
+    text-align: center; }
+    #methods .pm-methods img {
+      width: 70px; }
 
 .pm-splitter-footer {
   background: #FFF;
@@ -922,6 +990,18 @@
     font-family: "Fedra Sans Screen Bold 2",Verdana,Arial,sans-serif; }
   .pm-splitter-footer a {
     color: #00AE74; }
+
+@media screen and (max-width: 768px) {
+  .pm-splitter__student {
+    border: none;
+    padding: 30px 0 0 0 !important; }
+  .pm-splitter__student,
+  .pm-splitter__teacher {
+    padding: 30px 0; }
+  button:before {
+    display: none; }
+  #content {
+    margin-top: -60px !important; } }
 
 body {
   background: #91CAD9; }
@@ -991,5 +1071,7 @@ a {
           right: -3px; }
 
 @media (max-width: 600px) {
+  #header > div > a.bao-llnstudio-header__right.bao-llnstudio-header__right--bao > span {
+    font-size: 12px; }
   .bao-llnstudio-footer__wrapper--teacher {
     display: none; } }
