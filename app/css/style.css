@@ -66,37 +66,37 @@
   #mikado .bao-llnstudio-modulepicker__year-select-method--mikado-6:hover .bao-llnstudio-modulepicker__year-select-method--bullet {
     background: #C7DC69;
     color: #FFF; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-1:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-1:before {
     background: #E6B121; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-1 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-1 .bao-llnstudio-chapter__tile-body-info-title {
     color: #E6B121; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-2:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-2:before {
     background: #0184BF; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-2 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-2 .bao-llnstudio-chapter__tile-body-info-title {
     color: #0184BF; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-3:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-3:before {
     background: #79BB43; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-3 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-3 .bao-llnstudio-chapter__tile-body-info-title {
     color: #79BB43; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-4:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-4:before {
     background: #D68630; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-4 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-4 .bao-llnstudio-chapter__tile-body-info-title {
     color: #D68630; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-5:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-5:before {
     background: #7E87B5; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-5 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-5 .bao-llnstudio-chapter__tile-body-info-title {
     color: #7E87B5; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-6:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-6:before {
     background: #00B0DE; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-6 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-6 .bao-llnstudio-chapter__tile-body-info-title {
     color: #00B0DE; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-7:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-7:before {
     background: #E05541; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-7 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-7 .bao-llnstudio-chapter__tile-body-info-title {
     color: #E05541; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-8:before {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-8:before {
     background: #3AAB47; }
-  #mikado .bao-llnstudio-chapter__tile--mikado-8 .bao-llnstudio-chapter__tile-body-info-title {
+  #mikado .bao-llnstudio-chapter__tile--mikado-chapter-8 .bao-llnstudio-chapter__tile-body-info-title {
     color: #3AAB47; }
   #mikado .bao-llnstudio-lesson__tile-mikado-chapter-1:before {
     background: #E6B121; }
@@ -559,7 +559,7 @@
     .bao-llnstudio-lesson .bao-llnstudio-lesson__tile-body-info {
       width: 100%; }
       .bao-llnstudio-lesson .bao-llnstudio-lesson__tile-body-info-segment {
-        color: #05B2B6;
+        color: #4DACC6;
         font-size: 15px; }
       .bao-llnstudio-lesson .bao-llnstudio-lesson__tile-body-info-title {
         color: #05B2B6;

@@ -1,7 +1,7 @@
 .bao-llnstudio-header {
     align-items: center;
-    display: flex;
     background: $bao-lln-white;
+    display: flex;
     padding: 10px 0;
     .bao-llnstudio-header__exercises {
         align-items: center;
@@ -32,8 +32,8 @@
         span {
             font-family: "Fedra Sans Screen Bold 2",Verdana,Arial,sans-serif;
             font-size: 16px;
-            margin-left: 8px;
             letter-spacing: 2px;
+            margin-left: 8px;
             text-transform: uppercase;
         }
         i {
@@ -93,13 +93,14 @@
             color: $bao-lln-white;
             display: flex;
             float: left;
+            height: 60px;
             justify-content: center;
             position: absolute;
             top: 0;
-            width: 60px;
-            height: 60px;
-            z-index: 9999;
             transition: .2s all;
+            width: 60px;
+            z-index: 9999;
+            
             i {
                 font-size: 20px;
                 line-height: 20px;
@@ -137,6 +138,10 @@
         }
         &-lesson {
             margin-left: 20px;
+            span {
+                line-height: 16px;
+                overflow: hidden;
+            }
         }
         &-close {
             a {
@@ -154,12 +159,12 @@
             background: $bao-lln-fill;
             color: $bao-lln-white;
             display: flex;
+            height: 60px;
             justify-content: center;
             position: absolute;
             right: 0;
             top: 0;
             width: 60px;
-            height: 60px;
             z-index: 9999;
             i {
                 font-size: 20px;
@@ -177,23 +182,14 @@
                 text-decoration: none;
             }
         }
-        /*&:after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -15px;
-            right: -15px;
-            bottom: 0;
-            border-bottom: 1px solid $bao-lln-white;
-        }*/
     }
 }
 
 @media (max-width: 576px) {
     .bao-llnstudio-menu__nav-home {
         float: none;
-        right: 60px;
         margin-right: 1px;
+        right: 60px;
     }
 }
 
@@ -211,11 +207,11 @@
     color: $bao-lln-green;
     font-family: 'MikadoBold';
     font-size: 18px;
+    letter-spacing: 1px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 15px 0;
     position: relative;
-    letter-spacing: 1px;
     text-align: center;
     width: 350px;
     &:before {
