@@ -906,22 +906,18 @@
     transition: all 0.15s ease;
     font-size: 20px;
     letter-spacing: 1px; }
-    .pm-splitter button i {
-      float: right;
-      position: relative;
-      top: 4px;
-      transition: all .2s; }
     .pm-splitter button:hover {
       background: #61b634;
       box-shadow: 0 6px 6px -4px rgba(0, 0, 0, 0.25), 0 6px 16px 0 rgba(150, 150, 150, 0.15);
       color: #FFF;
       transform: translateY(-1px);
       transform: scale(1.05); }
-      .pm-splitter button:hover i {
-        left: 1px; }
   .pm-splitter__student {
     border-right: 2px dashed #7BC2D5;
     padding: 30px; }
+    .pm-splitter__student .pm-splitter__list {
+      background: url(../assets/img/logo_lln.svg) right bottom no-repeat;
+      background-size: 100px; }
     .pm-splitter__student button {
       width: 100%; }
       .pm-splitter__student button:before {
@@ -935,6 +931,9 @@
         left: 42%; }
   .pm-splitter__teacher {
     padding: 30px; }
+    .pm-splitter__teacher .pm-splitter__list {
+      background: url(../assets/img/logo_lkr.svg) right bottom no-repeat;
+      background-size: 100px; }
     .pm-splitter__teacher button {
       width: 100%; }
       .pm-splitter__teacher button:before {
@@ -947,7 +946,7 @@
         top: -85px;
         left: 42%; }
   .pm-splitter__list {
-    padding-top: 30px; }
+    padding: 30px 80px 0px 0px; }
     .pm-splitter__list h5 {
       font-family: 'MikadoBold';
       font-size: 20px;
