@@ -1,15 +1,8 @@
 #splitter {
-    #title {
-        height: 250px;
-        .bao-llnstudio-page__topbg {
-            background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center bottom no-repeat;
-            background-size: cover;
-            height: 230px;
-            padding: 50px 0;
-        }
-    }
     #content {
-        margin-top: -130px;
+        background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center top no-repeat;
+        background-color: #91CAD9; 
+        background-size: auto;
         z-index: 999;
     }
     button:focus {
@@ -72,7 +65,7 @@
     }
     &__student {
         .pm-splitter__list {
-            background: url(../assets/img/logo_lln.svg) right bottom no-repeat;
+            background: url(../assets/img/logo_lln.svg) right 25px no-repeat;
             background-size: 100px;
         }
         border-right: 2px dashed #7BC2D5;
@@ -93,7 +86,7 @@
     }
     &__teacher {
         .pm-splitter__list {
-            background: url(../assets/img/logo_lkr.svg) right bottom no-repeat;
+            background: url(../assets/img/logo_lkr.svg) right 25px no-repeat;
             background-size: 100px;
         }
         padding: 30px;
@@ -152,6 +145,12 @@
         img {
             width: 70px;
         }
+        &__text {
+            text-align: right;
+        }
+        &__img {
+            text-align: left;
+        }
     }
 }
 
@@ -181,7 +180,8 @@
     button:before {
         display: none;
     }
-    #content {
-        margin-top: -60px !important;
+    .pm-methods__text,
+    .pm-methods__img {
+        text-align: center !important;
     }
 }
