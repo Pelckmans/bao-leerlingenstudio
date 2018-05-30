@@ -1,8 +1,8 @@
 #splitter {
     #content {
-        background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center top no-repeat;
+        background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center -200px no-repeat;
         background-color: #91CAD9; 
-        background-size: auto;
+        background-size: cover;
         z-index: 999;
     }
     button:focus {
@@ -14,7 +14,7 @@
     color: #FFF;
     font-size: 32px;
     font-family: 'MikadoMedium';
-    margin-bottom: 50px;
+    margin: 20px 0 50px 0;
     }
 
 .pm-splitter {
@@ -146,6 +146,7 @@
             width: 70px;
         }
         &__text {
+            padding-top: 10px;
             text-align: right;
         }
         &__img {
@@ -183,5 +184,11 @@
     .pm-methods__text,
     .pm-methods__img {
         text-align: center !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .pm-splitter__list {
+        padding: 30px 0px 0px 0px !important;
     }
 }
