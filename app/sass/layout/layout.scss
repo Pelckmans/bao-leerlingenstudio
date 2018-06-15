@@ -23,6 +23,10 @@
     .bao-llnstudio-header__right {
         color: $bao-lln-blue;
         transition: all .2s;
+        &:focus {
+            outline: none;
+            text-decoration: none;
+        }
         &--bao {
             color: $bao-lln-pm-green;
             &:hover {

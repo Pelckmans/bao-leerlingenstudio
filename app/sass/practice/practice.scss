@@ -31,13 +31,11 @@
 
 .bao-llnstudio-alert {
     background: $bao-lln-modal-alert-bg;
-    top: 60px;
-    bottom: 60px;
     .bao-llnstudio-alert__content {
         border: none;
         border-radius: 0px;
         &:before {
-            background: $bao-lln-iedereen-spelt;
+            background: $bao-lln-blue;
             bottom: 0;
             content: "";
             height: 100%;
@@ -60,6 +58,15 @@
         background: $bao-lln-blue;
         border-radius: 0px;
         margin: 10px;
+        h4 {
+            text-transform: uppercase;
+            color: $bao-lln-white;
+            font-family: 'MikadoLight';
+        }
+        i {
+            position: relative;
+            top: 2px;
+        }
         h5 {
             background: $bao-lln-button-practice-2;
             border-radius: 4px;
