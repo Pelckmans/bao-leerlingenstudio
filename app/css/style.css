@@ -669,16 +669,15 @@
   padding-bottom: 10px; }
 
 /* modal try out simon > back to scss */
-@media (min-width: 992px) {
-  .modal-lg {
-    width: 90% !important;
-    max-width: 940px; } }
 .bao-llnstudio-modalbody {
   color: #1E6C81;
   padding: 20px; }
   .bao-llnstudio-modalbody a {
     border-bottom: 1px solid #1E6C81;
     color: #1E6C81; }
+
+.bao-llnstudio-alert__dialog {
+  margin: 30px auto; }
 
 .bao-llnstudio-modalcol {
   padding: 0 30px; }
@@ -738,6 +737,13 @@
 .bao-llnstudio-modal-h--blue {
   color: #4DACC6; }
 
+@media screen and (max-width: 992px) {
+  .bao-llnstudio-modalcol:first-child {
+    border-right: none; } }
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 90% !important;
+    max-width: 940px; } }
 .bao-llnstudio-return {
   margin: 20px 0;
   width: 100%; }

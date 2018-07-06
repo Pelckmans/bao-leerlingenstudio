@@ -1,12 +1,5 @@
 /* modal try out simon > back to scss */
 
-@media (min-width: 992px){
-    .modal-lg {
-        width: 90% !important;
-        max-width: 940px;
-    }
-}
-
 .bao-llnstudio-modalbody {
     color: #1E6C81;
     padding:20px;
@@ -14,6 +7,10 @@
         border-bottom: 1px solid #1E6C81;
         color: #1E6C81;
     }
+}
+
+.bao-llnstudio-alert__dialog {
+    margin: 30px auto;
 }
 
 .bao-llnstudio-modalcol {
@@ -24,7 +21,6 @@
     border-right: dashed 2px #4DACC6;
     /* die dash moet er nog af responsive*/
 }
-
 
 .bao-llnstudio-list--numberedimportant {
     counter-reset: li;
@@ -81,4 +77,17 @@
 }
 .bao-llnstudio-modal-h--blue {
     color:#4DACC6;
+}
+
+@media screen and (max-width: 992px) {
+    .bao-llnstudio-modalcol:first-child {
+        border-right: none;
+    }
+}
+
+@media (min-width: 992px){
+    .modal-lg {
+        width: 90% !important;
+        max-width: 940px;
+    }
 }
