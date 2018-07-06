@@ -1,0 +1,84 @@
+/* modal try out simon > back to scss */
+
+@media (min-width: 992px){
+    .modal-lg {
+        width: 90% !important;
+        max-width: 940px;
+    }
+}
+
+.bao-llnstudio-modalbody {
+    color: #1E6C81;
+    padding:20px;
+    a {
+        border-bottom: 1px solid #1E6C81;
+        color: #1E6C81;
+    }
+}
+
+.bao-llnstudio-modalcol {
+    padding:0 30px;
+}
+
+.bao-llnstudio-modalcol:first-child {
+    border-right: dashed 2px #4DACC6;
+    /* die dash moet er nog af responsive*/
+}
+
+
+.bao-llnstudio-list--numberedimportant {
+    counter-reset: li;
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 0px;
+}
+
+.bao-llnstudio-list--numberedimportant li {
+    position: relative;
+    padding: 5px 0 5px 34px;
+    counter-increment: li;
+    line-height: 20px
+}
+
+.bao-llnstudio-list--numberedimportant li:before {
+        content: counter(li);
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        color: #FFF;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top: 2px;
+        background-color: #67C237;
+        line-height: 26px;
+}
+.bao-llnstudio-list--numberedimportant li span {
+    font-family: 'MikadoBold';
+}
+
+.bao-llnstudio-alertbox{
+    background-color: #C7EBF5;
+    padding: 10px;
+    font-weight: 700;
+    font-size:16px;
+    border-radius: 3px;
+}
+
+.bao-llnstudio-modalbody h3 {
+    font-family: 'MikadoMedium';
+}
+.bao-llnstudio-modalbody h3:first-child {
+    margin-top: 0px;
+}
+
+.bao-llnstudio-modal-h--green {
+    color:#67C237;
+}
+.bao-llnstudio-modal-h--red {
+    color:#E22D11;
+}
+.bao-llnstudio-modal-h--blue {
+    color:#4DACC6;
+}
