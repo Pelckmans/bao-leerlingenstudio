@@ -311,6 +311,9 @@
 .icon-bao-llnstudio-right:before {
   content: "\68"; }
 
+.icon-bao-llnstudio-cookie:before {
+  content: "\69"; }
+
 .bao-llnstudio-header {
   align-items: center;
   background: #FFF;
