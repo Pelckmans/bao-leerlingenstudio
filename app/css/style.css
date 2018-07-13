@@ -149,10 +149,6 @@
   #iedereen-spelt .bao-llnstudio-modulepicker__year-select-method:hover .bao-llnstudio-modulepicker__year-select-method--bullet {
     background: #E50075;
     color: #FFF; }
-  #iedereen-spelt .bao-llnstudio-lesson__tile--bignumber .bao-llnstudio-lesson__tile-body-info-segment {
-    font-size: 25px; }
-  #iedereen-spelt .bao-llnstudio-lesson__tile--bignumber .bao-llnstudio-lesson__tile-body-info-title {
-    font-size: 15px; }
 
 .bao-llnstudio-btn {
   background: #5AAF2D;
@@ -594,6 +590,25 @@
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1); }
   .bao-llnstudio-lesson .bao-llnstudio-lesson__tile--no-thumb .bao-llnstudio-lesson__tile-body {
     margin-left: 20px; }
+
+.bao-llnstudio-lesson__tile--bignumber .bao-llnstudio-lesson__tile-body-info-segment {
+  font-size: 27px;
+  font-weight: 600; }
+
+.bao-llnstudio-lesson__tile--bignumber .bao-llnstudio-lesson__tile-body-info-title {
+  font-size: 15px; }
+
+.bao-llnstudio-lesson__tile--bigtitle .bao-llnstudio-lesson__tile-body-info-segment {
+  font-size: 15px; }
+
+.bao-llnstudio-lesson__tile--bigtitle .bao-llnstudio-lesson__tile-body-info-title {
+  font-size: 18px; }
+
+.bao-llnstudio-lesson__tile--neutral .bao-llnstudio-lesson__tile-body-info-segment {
+  font-size: 20px; }
+
+.bao-llnstudio-lesson__tile--neutral .bao-llnstudio-lesson__tile-body-info-title {
+  font-size: 15px; }
 
 @media (max-width: 450px) {
   .bao-llnstudio-lesson__tile-img {

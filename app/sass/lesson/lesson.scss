@@ -80,6 +80,34 @@
     }
 }
 
+// MODIFIER LESSONTILES
+// e.g. iedereen spelt: bigger lesson number
+.bao-llnstudio-lesson__tile--bignumber {
+    .bao-llnstudio-lesson__tile-body-info-segment {
+        font-size: 27px;
+        font-weight: 600;
+    }
+    .bao-llnstudio-lesson__tile-body-info-title {
+        font-size: 15px;
+    }
+}
+.bao-llnstudio-lesson__tile--bigtitle {
+    .bao-llnstudio-lesson__tile-body-info-segment {
+        font-size: 15px;
+    }
+    .bao-llnstudio-lesson__tile-body-info-title {
+        font-size: 18px;
+    }
+}
+.bao-llnstudio-lesson__tile--neutral {
+    .bao-llnstudio-lesson__tile-body-info-segment {
+        font-size: 20px;
+    }
+    .bao-llnstudio-lesson__tile-body-info-title {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 450px) {
     .bao-llnstudio-lesson__tile-img {
         display: none;
