@@ -165,6 +165,8 @@
   .bao-llnstudio-btn:hover {
     background: #458623;
     cursor: pointer; }
+  .bao-llnstudio-btn:focus {
+    outline: none; }
   .bao-llnstudio-btn--practice-main {
     background: #4DACC6;
     color: #FFF; }

@@ -18,6 +18,9 @@
     padding: 11px 15px 9px 15px;
     text-transform: uppercase;
     transition: .2s all;
+    &:focus {
+        outline: none;
+    }
     &--practice-main {
         @include bao-llnstudio-btn-style($bao-lln-blue, $bao-lln-white);
     }
