@@ -272,3 +272,34 @@
         width: 300px !important;
     }
 }
+
+// COOKIE WARNING
+.bao-llnstudio-cookie {
+    align-items: center;
+    background: $alert-alert;
+    color: $bao-lln-white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    &__icon {
+        i {
+            display: flex;
+            font-size: 40px;
+            padding-right: 15px;
+        }
+    }
+    &__warning {
+        text-align: center;
+        &-title {
+            font-size: 18px;
+        }
+        &-subtitle {
+            font-weight: 300;
+            font-family: 'MikadoLight';
+            a {
+                border-bottom: 1px solid $bao-lln-white;
+                color: $bao-lln-white;
+            }
+        }
+    }
+}

@@ -527,6 +527,28 @@
   .bao-llnstudio-page__title {
     width: 300px !important; } }
 
+.bao-llnstudio-cookie {
+  align-items: center;
+  background: #FF0002;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0; }
+  .bao-llnstudio-cookie__icon i {
+    display: flex;
+    font-size: 40px;
+    padding-right: 15px; }
+  .bao-llnstudio-cookie__warning {
+    text-align: center; }
+    .bao-llnstudio-cookie__warning-title {
+      font-size: 18px; }
+    .bao-llnstudio-cookie__warning-subtitle {
+      font-weight: 300;
+      font-family: 'MikadoLight'; }
+      .bao-llnstudio-cookie__warning-subtitle a {
+        border-bottom: 1px solid #FFF;
+        color: #FFF; }
+
 .bao-llnstudio-return-lessonlevel {
   background: #05B2B6;
   border-radius: 28px;
@@ -759,6 +781,23 @@
 .bao-llnstudio-modal-h--blue {
   color: #4DACC6; }
 
+#ModalCookie .modal-title i {
+  font-size: 28px;
+  top: 6px;
+  margin-right: 10px; }
+
+#ModalCookie .bao-llnstudio-modal-h--blue {
+  font-size: 17px;
+  margin-top: 15px; }
+
+ol.bao-llnstudio-list--browser {
+  padding-left: 20px;
+  margin-bottom: 5px; }
+
+.bao-llnstudio-list--browser li {
+  font-size: 13px;
+  padding-bottom: 2px; }
+
 @media screen and (max-width: 992px) {
   .bao-llnstudio-modalcol:first-child {
     border-right: none; } }
@@ -865,6 +904,7 @@
 .bao-llnstudio-practices {
   background: #FFF;
   min-height: 600px;
+  height: 600px;
   position: relative;
   padding: 2px; }
   .bao-llnstudio-practices:before {
@@ -884,10 +924,6 @@
     transition: all .2s;
     width: 100%;
     z-index: -1; }
-
-@media (max-width: 767px) {
-  .bao-llnstudio-menu__nav-close span {
-    display: none; } }
 
 .bao-llnstudio-alert {
   background: rgba(52, 73, 94, 0.65); }
@@ -953,6 +989,33 @@
             float: right;
             position: relative;
             top: 1px; }
+
+.bao-llnstudio-cookiewrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center; }
+  .bao-llnstudio-cookiewrapper i, .bao-llnstudio-cookiewrapper h2, .bao-llnstudio-cookiewrapper p, .bao-llnstudio-cookiewrapper button {
+    display: block;
+    text-align: center; }
+  .bao-llnstudio-cookiewrapper i {
+    color: #FF0002;
+    font-size: 80px;
+    height: 80px; }
+  .bao-llnstudio-cookiewrapper h2 {
+    color: #FF0002;
+    font-family: 'MikadoMedium';
+    font-size: 22px;
+    margin-bottom: 30px; }
+  .bao-llnstudio-cookiewrapper p {
+    color: #4DACC6;
+    margin-bottom: 20px; }
+  .bao-llnstudio-cookiewrapper button {
+    margin: 0 auto; }
+
+@media (max-width: 767px) {
+  .bao-llnstudio-menu__nav-close span {
+    display: none; } }
 
 #splitter #content {
   background: url(../assets/img/bao-llnstudio-bg-splitter.svg) center -200px no-repeat;

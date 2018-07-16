@@ -1,6 +1,7 @@
 .bao-llnstudio-practices {
     background: $bao-lln-white;
     min-height: 600px;
+    height: 600px;
     position: relative;
     padding: 2px;
     &:before {
@@ -20,12 +21,6 @@
         transition: all .2s;
         width: 100%;
         z-index: -1;
-    }
-}
-
-@media (max-width: 767px) {
-    .bao-llnstudio-menu__nav-close span {
-        display: none;
     }
 }
 
@@ -104,5 +99,41 @@
                 }
             }
         }
+    }
+}
+
+// COOKIE WRAPPER
+.bao-llnstudio-cookiewrapper {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    i, h2, p, button {
+        display: block;
+        text-align: center;
+    }
+    i {
+        color: $alert-alert;
+        font-size: 80px;
+        height: 80px;
+    }
+    h2 {
+        color: $alert-alert;
+        font-family: 'MikadoMedium';
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    p {
+        color: $bao-lln-blue;
+        margin-bottom: 20px;
+    }
+    button {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .bao-llnstudio-menu__nav-close span {
+        display: none;
     }
 }

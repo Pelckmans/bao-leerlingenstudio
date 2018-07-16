@@ -76,6 +76,25 @@
     color:#4DACC6;
 }
 
+// COOKIE MODAL
+#ModalCookie .modal-title i {
+    font-size:28px;
+    top: 6px;
+    margin-right: 10px;
+  }
+#ModalCookie .bao-llnstudio-modal-h--blue {
+font-size: 17px;
+margin-top: 15px;
+}
+ol.bao-llnstudio-list--browser {
+padding-left: 20px;
+margin-bottom: 5px;
+}
+.bao-llnstudio-list--browser li {
+font-size: 13px;
+padding-bottom: 2px;
+}
+
 @media screen and (max-width: 992px) {
     .bao-llnstudio-modalcol:first-child {
         border-right: none;
